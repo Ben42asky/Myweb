@@ -53,7 +53,7 @@ export default function Contact() {
       <Header />
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center pt-20 px-4">
+      <section className="min-h-screen flex items-center justify-center pt-20 px-4" style={{ backgroundColor: "rgba(196, 89, 89, 0)" }}>
         <div className="container mx-auto max-w-2xl">
           <div className="animate-fade-in-up mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Let's Get in Touch</h1>
