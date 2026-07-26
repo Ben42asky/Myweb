@@ -3,7 +3,7 @@ import { Mail, Github, Linkedin, MessageCircle } from "lucide-react"
 
 export default function Footer() {
   const socialLinks = [
-    { icon: Github, href: "https://github.com/benjaminotieno", label: "GitHub" },
+    { icon: Github, href: "https://github.com/Ben42asky", label: "GitHub" },
     { icon: Mail, href: "mailto:odedebenjamin7@gmail.com", label: "Email" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/benjamin-odede-a7151a353/", label: "LinkedIn" },
     { icon: MessageCircle, href: "https://wa.me/+254114292224", label: "WhatsApp" },

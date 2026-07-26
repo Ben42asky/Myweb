@@ -38,7 +38,7 @@ export default function Contact() {
       icon: Github,
       label: "GitHub",
       value: "github.com/benjaminotieno",
-      href: "https://github.com/benjaminotieno",
+      href: "https://github.com/Ben42asky",
     },
     {
       icon: Linkedin,
@@ -75,10 +75,10 @@ export default function Contact() {
                     className="w-full bg-card border border-border rounded px-4 py-3 text-foreground placeholder-muted-foreground focus:outline-none transition-colors"
                     placeholder="Your Name"
                     onFocus={(e) => {
-                      ;(e.currentTarget as HTMLElement).style.borderColor = "#0C1E3F"
+                      ; (e.currentTarget as HTMLElement).style.borderColor = "#0C1E3F"
                     }}
                     onBlur={(e) => {
-                      ;(e.currentTarget as HTMLElement).style.borderColor = "inherit"
+                      ; (e.currentTarget as HTMLElement).style.borderColor = "inherit"
                     }}
                   />
                 </div>
@@ -91,10 +91,10 @@ export default function Contact() {
                     className="w-full bg-card border border-border rounded px-4 py-3 text-foreground placeholder-muted-foreground focus:outline-none transition-colors"
                     placeholder="your@email.com"
                     onFocus={(e) => {
-                      ;(e.currentTarget as HTMLElement).style.borderColor = "#0C1E3F"
+                      ; (e.currentTarget as HTMLElement).style.borderColor = "#0C1E3F"
                     }}
                     onBlur={(e) => {
-                      ;(e.currentTarget as HTMLElement).style.borderColor = "inherit"
+                      ; (e.currentTarget as HTMLElement).style.borderColor = "inherit"
                     }}
                   />
                 </div>
@@ -107,10 +107,10 @@ export default function Contact() {
                     className="w-full bg-card border border-border rounded px-4 py-3 text-foreground placeholder-muted-foreground focus:outline-none transition-colors resize-none"
                     placeholder="Your message here..."
                     onFocus={(e) => {
-                      ;(e.currentTarget as HTMLElement).style.borderColor = "#0C1E3F"
+                      ; (e.currentTarget as HTMLElement).style.borderColor = "#0C1E3F"
                     }}
                     onBlur={(e) => {
-                      ;(e.currentTarget as HTMLElement).style.borderColor = "inherit"
+                      ; (e.currentTarget as HTMLElement).style.borderColor = "inherit"
                     }}
                   ></textarea>
                 </div>
@@ -124,10 +124,10 @@ export default function Contact() {
                     color: "#F1F0E8",
                   }}
                   onMouseEnter={(e) => {
-                    ;(e.currentTarget as HTMLElement).style.backgroundColor = "#1a2f52"
+                    ; (e.currentTarget as HTMLElement).style.backgroundColor = "#1a2f52"
                   }}
                   onMouseLeave={(e) => {
-                    ;(e.currentTarget as HTMLElement).style.backgroundColor = "#0C1E3F"
+                    ; (e.currentTarget as HTMLElement).style.backgroundColor = "#0C1E3F"
                   }}
                 >
                   {loading ? "Sending..." : "Send Message"}
@@ -160,12 +160,12 @@ export default function Contact() {
                         color: "#0C1E3F",
                       }}
                       onMouseEnter={(e) => {
-                        ;(e.currentTarget as HTMLElement).style.backgroundColor = "#0C1E3F"
-                        ;(e.currentTarget as HTMLElement).style.color = "#F1F0E8"
+                        ; (e.currentTarget as HTMLElement).style.backgroundColor = "#0C1E3F"
+                          ; (e.currentTarget as HTMLElement).style.color = "#F1F0E8"
                       }}
                       onMouseLeave={(e) => {
-                        ;(e.currentTarget as HTMLElement).style.backgroundColor = "rgba(12, 30, 63, 0.1)"
-                        ;(e.currentTarget as HTMLElement).style.color = "#0C1E3F"
+                        ; (e.currentTarget as HTMLElement).style.backgroundColor = "rgba(12, 30, 63, 0.1)"
+                          ; (e.currentTarget as HTMLElement).style.color = "#0C1E3F"
                       }}
                     >
                       <Icon size={24} />
